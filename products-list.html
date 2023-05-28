@@ -1,0 +1,396 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="order by dede58.com"/>
+<title>产品列表</title>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/pro-list.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<!------------top---------------->
+	<div class="top">
+    	<div class="top-c">
+        	<div class="top-left">
+            	<a href="javascript:;" class="collect">收藏</a>
+                <a href="javascript:;" class="wechat">微信</a>
+            </div>
+            <div class="top-right">
+            	<p>嗨，欢迎来到电子商城</p>
+                <p><a href="javascript:;">请登录</a> | <a href="javascript:;">免费注册</a></p>
+                <p><a href="javascript:;">我的订单</a> | <a href="javascript:;">服务中心</a></p>
+            </div>
+        </div>
+    </div>
+
+	<!------------header---------------->
+	<div class="header">
+    	<div class="logo"><a href="index.html"><img src="images/logo.png" width="190" /></a></div>
+    	<div class="header-right">
+        	<div class="search-section">
+            	<div class="keyword"><input name="keyword"  type="text"  value="请输入关键字" onFocus="this.value=''" onBlur="if(!value){value=defaultValue;}"/></div>
+                <div class="btn"></div>
+            </div>
+            
+            <div class="cart-section">
+                <p>购物车(1)</p>
+                <div class="hidden-cart" style="height:">
+                	<p>购物车(1)</p>
+                </div>
+                <div class="hidden-cart-c">
+                	<ul>
+                    	<li>
+                        	<a href="#"><img src="images/00.jpg" width="60" height="60" /></a>
+                            <p><a href="#">小米盒子增强版 1G 黑色</a></p>
+                            <pre>299元 x 1</pre>
+                            <ins>x</ins>
+						</li>
+                        <li>
+                        	<a href="#"><img src="images/00.jpg" width="60" height="60" /></a>
+                            <p><a href="#">小米盒子增强版 1G 黑色</a></p>
+                            <pre>299元 x 1</pre>
+                            <ins>x</ins>
+						</li>
+                    </ul>
+                    <div class="cart-btn">
+                    	<p>共计 2 件商品<span>合计：<strong>598元</strong></span></p>
+                        <input type="button" value="去结算" />
+                    </div>
+                    <!--------购物车暂无产品--------------->
+                    <div class="cart-not hidden">购物车中还没有商品，赶紧选购吧！</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <!------------header-wrap---------------->
+    <div class="header-wrap">
+        <div class="navwrap">
+            <div id="nav">
+                <div class="navbar clearfix">
+                    <a class="current" href="index.html">首页</a>
+                    <a href="products-list.html">所有商品</a>
+                    <a href="products-list.html">男装</a>
+                    <a href="products-list.html">女装</a>
+                    <a href="products-list.html">数码</a>
+                    <a href="products-list.html">生活用品</a>
+                    <a href="#">品牌一览</a>
+                    <a href="#">折扣区<em class="sale"></em></a>
+                </div>
+                                                            
+                <div class="pros subpage">
+                    <h2>全部商品分类</h2>
+                    <ul class="prosul clearfix" id="proinfo" style="display:none">
+                        <li>
+                            <h3>男装</h3>
+                            <a href="#">潮牌</a>
+                            <a href="#">衣裤</a>
+                            <a href="#">鞋子</a>
+                            <div class="prosmore hide">
+                                <span><em><a href="#">球鞋</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">潮服</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">品牌</a></em></span>
+                                <span><em><a href="#">衣服</a></em></span>
+                                <span><em><a href="#">裤子</a></em></span>
+                                <span><em><a href="#">墨镜</a></em></span>
+                                <span><em><a href="#">手环</a></em></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>女装</h3>
+                            <a href="#">潮牌</a>
+                            <a href="#">连衣裙</a>
+                            <a href="#">衬衣</a>
+                            <div class="prosmore hide">
+                                <span><em><a href="#">短裙</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">潮服</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">品牌</a></em></span>
+                                <span><em><a href="#">衣服</a></em></span>
+                                <span><em><a href="#">裤子</a></em></span>
+                                <span><em><a href="#">墨镜</a></em></span>
+                                <span><em><a href="#">手环</a></em></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>数码</h3>
+                            <a href="#">手机</a>
+                            <a href="#">电脑</a>
+                            <a href="#">相机</a>
+                            <div class="prosmore hide">
+                                <span><em><a href="#">小米</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">华为</a></em></span>
+                                <span><em class="morehot"><a class="morehot" href="#">苹果</a></em></span>
+                                <span><em><a href="#">笔记本</a></em></span>
+                                <span><em><a href="#">索尼</a></em></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>生活用品</h3>
+                            <a href="#">护肤</a>
+                            <a href="#">家具</a>
+                            <div class="prosmore hide">
+                                <span><em><a href="#">家装</a></em></span>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>学习</h3>
+                            <a href="#">文具</a>
+                            <a href="#">教材</a>
+                            <a href="#">网课</a>
+                            <div class="prosmore hide">
+                                <span><em><a href="#">文具</a></em></span>
+                                <span><em><a href="#">教材</a></em></span>
+                                <span><em><a href="#">网课</a></em></span>
+                            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------main---------------->
+	<div class="main">
+    	<div class="current-position"><h2><a href="#">首页</a> > <a href="#">所有商品</a></h2></div>
+        <div class="big-class"><h1>所有商品</h1></div>
+        <div class="small-class">
+        	<p>分类：  <a href="#" class="active">全部</a>|<a href="#">男装</a>|<a href="#">女装</a>|<a href="#">数码</a>|<a href="#">生活用品</a>|<a href="#">学习</a>|<a href="#">运动</a>|<a href="#">娱乐</a></p>
+            <p>分类：  <a href="#" class="active">全部</a>|<a href="#">男装</a>|<a href="#">女装</a>|<a href="#">数码</a>|<a href="#">生活用品</a>|<a href="#">学习</a>|<a href="#">运动</a>|<a href="#">娱乐</a></p>
+        </div>
+        <div class="box-hd">
+            <div class="filter-lists">
+                <ul>
+                    <li class="current"><a href="#" rel="nofollow">推荐</a>|</li>
+                    <li ><a href="#" rel="nofollow">最新</a>|</li>
+                    <li ><a href="#" rel="nofollow">价格从高到低</a>|</li>
+                    <li ><a href="#" rel="nofollow">价格从低到高</a>|</li>
+                    <li ><a href="#" rel="nofollow">关注度</a></li>
+                </ul>
+            </div>
+            
+            <div class="more">
+                <a href="javascript:;"><i class="icon-check"></i><p>仅显示特惠商品</p></a>
+                <a href="javascript:;"><i class="icon-check"></i><p>仅显示有货商品</p></a>
+            </div>
+        </div>
+        
+        <div class="products-list" id="products-list">
+        	<ul>
+            	<li>
+                	<div class="img" style="background:url(images/4-2li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">宝可梦手办</a></p><span>175元</span></div>
+                        <div class="right"><i class="star5"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-1li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">约会大作战小说</a></p><span>20元</span></div>
+                        <div class="right"><i class="star4"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-3li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">百乐钢笔</a></p><span>60元</span></div>
+                        <div class="right"><i class="star3"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-4li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">索尼相机</a></p><span>6176元</span></div>
+                        <div class="right"><i class="star2"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-2li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">宝可梦手办</a></p><span>175元</span></div>
+                        <div class="right"><i class="star5"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-1li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">约会大作战小说</a></p><span>20元</span></div>
+                        <div class="right"><i class="star4"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-3li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">百乐钢笔</a></p><span>60元</span></div>
+                        <div class="right"><i class="star3"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-4li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">索尼相机</a></p><span>6176元</span></div>
+                        <div class="right"><i class="star2"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-2li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">宝可梦手办</a></p><span>175元</span></div>
+                        <div class="right"><i class="star5"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-1li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">约会大作战小说</a></p><span>20元</span></div>
+                        <div class="right"><i class="star4"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-3li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">百乐钢笔</a></p><span>60元</span></div>
+                        <div class="right"><i class="star3"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+                <li>
+                	<div class="img" style="background:url(images/4-4li.jpg) no-repeat center center"><a href="products-detailed.html"></a></div>
+                    <div class="w">
+                    	<div class="left"><p><a href="products-detailed.html">索尼相机</a></p><span>6176元</span></div>
+                        <div class="right"><i class="star2"></i><p>22264人评价</p></div>
+                    </div>
+                    <div class="btn">
+                    	<a href="products-detailed.html" class="btn1">立即购买</a>
+                        <a href="products-detailed.html" class="btn2">加入购物车</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="clr10"></div>
+            <div class="fy">
+            	<div class="fy-c">
+                	<a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <span>...</span>
+                    <a href="#">94</a>
+                    <a href="#">></a>
+                    <span>共94页</span>
+                    <span>到第</span>
+                    <input type="text" value="1" />
+                    <span>页</span>
+                    <a href="#">确定</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+	
+     <!------底部-------->
+	<div class="footer">
+    	<div class="footer-c">
+        	<dl>
+            	<dt>购买指南</dt>
+                <dd><a href="service.html">第一次购物体验</a></dd>
+                <dd><a href="service.html">品质保证原则</a></dd>
+                <dd><a href="service.html">会员申请条件</a></dd>
+            </dl>
+            <dl>
+            	<dt>支付方式</dt>
+                <dd><a href="#">网银在线支付</a></dd>
+                <dd><a href="#">支付宝支付</a></dd>
+                <dd><a href="#">银联在线支付</a></dd>
+            </dl>
+            <dl>
+            	<dt>配送方式</dt>
+                <dd><a href="#">配送方式</a></dd>
+            </dl>
+            <dl>
+            	<dt>售后服务</dt>
+                <dd><a href="#">联系客服</a></dd>
+                <dd><a href="#">订单查询</a></dd>
+                <dd><a href="#">退换货流程及原则</a></dd>
+            </dl>
+            
+            <div class="col-contact">
+                <p class="phone">400-100-1100</p>
+                <p>周一至周日 8:00-18:00<br />（仅收市话费）</p>
+                <input type="button" value="在线客户" />
+            </div>
+            <div class="clr20"></div>
+            <div class="footer-b">
+                <p><a href="#">关于我们</a>  |  <a href="#">手机商城</a>  |  <a href="#">联系我们</a></p>
+                <p>电子科技 版权所有　　网站备案号：鄂ICP备0000号-1</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/Public.js"></script>
+
+
+<script type="text/javascript">
+$(function(){
+	/*------------------------------排列互选框-----------------------------------*/	
+	$(".box-hd .more a").click(function(){
+		if($(this).find("i").attr("class")=="icon-check"){
+			$(this).find("i").attr("class","icon-check-active");
+		}
+		else{
+			$(this).find("i").attr("class","icon-check");
+		}
+	})
+	
+	$("#products-list").find("li").hover(function(){
+		$(this).addClass("active");
+	},function(){
+		$(this).removeClass("active");
+	})
+})
+
+</script>
+</html>
