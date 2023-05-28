@@ -1,5 +1,5 @@
 /*------------------------------导航效果-----------------------------------*/
-(function(){
+(() => {
 	var $subblock = $(".subpage"), $head=$subblock.find('h2'), $ul = $("#proinfo"), $lis = $ul.find("li"), inter=false;
 	$lis.hover(function(){
 		if(!$(this).hasClass('nochild')){
